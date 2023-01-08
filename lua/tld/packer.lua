@@ -44,6 +44,8 @@ return require('packer').startup(function(use)
 
   -- .editorconfig support
   use('editorconfig/editorconfig-vim')
-
+    
+  -- Discord integration
+  use 'andweeb/presence.nvim'
 end)
 
